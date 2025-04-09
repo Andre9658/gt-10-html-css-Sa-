@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.exercise {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Exercicio 1: Centralizar uma div */
+.exercise1 {
+    position: relative;
+    height: 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise1 .box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    
+}
+
+/* Exercicio 2: Centralizar texto verticalmente */
+.exercise2 {
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    
+}
+.exercise2 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+    
+    
+}
+
+/* Exercicio 3: Layout em coluna */
+.exercise3 {
+    display: flex;
+    flex-direction: column;
+}
+.exercise3 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+}
+
+/* Exercicio 4: centralizar e arredondar*/
+.exercise4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.exercise4 .column {
+    width: 400px;
+    height: 100px;
+    color: #fff;
+    background-color: #28a745;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+
+}
+
+/* Exercicio 5: Alinhamento flexível */
+.exercise5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.exercise5 .flex-item {
+    background-color: #6c757d;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    
+}
+
+/* Exercicio 6: Botão */
+.exercise6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.exercise6 button {
+    background-color: rgb(32, 151, 206);
+    width: 20%;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+
+    
+    
+}
+
+/* Exercicio 7: Input */
+.exercise7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise7 input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #272727;
+    
+
+}
+.exercise7 input::placeholder {
+    color: white;
+
+}
+
+.exercise8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise8 input{
+    width: 200px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: aqua;
+
+    
+}
+
+.exercise9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.exercise9 button{
+    width: 300px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    border-radius: 8px; 
+}
+
+.exercise9 button i{
+    width: 10%;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.exercise9 button p{
+    width: 90%;
+}
+
+
+
