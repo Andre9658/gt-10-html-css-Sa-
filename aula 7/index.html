@@ -12,56 +12,49 @@
 <body>
     <div class="container">
         <div class="esquerda">
-            <img src="./imagens/fitness-tracker-animate.svg" alt="imagem-animada">
-
-        </div>
-        <div class="direita">
-            <div class="card">
-                <div class="topo">
-                    <h1>Calculadora-Imc</h1>
-                    <div class="linha"></div>
+            <img src="./imagens/fitness-tracker-animate.svg" width="600px" alt="imagem-animada">
+            </div>
+            <div class="direita">
+                <div class="card">
+                    <div class="topo">
+                        <h1>Calculadora-IMC</h1>
+                        <div class="linha"></div>
+                    </div>
                     <div class="meio">
                         <div class="inp">
                             <label for="peso">Peso em Kg</label>
-                            <div class="campo"></div>
-                            <div class="icone">
-                                <i class="fa-solid fa-weight-hanging"></i>
-                            </div>
-                            <div class="campo-input">
-                                <input type="number" id = "peso">
-                            </div>
-                            <div class="valor">
-                                <p>Kg</p>
-                            </div>
-                            </div>
-                            </div>
+                            <div class="campo">
+                                <div class="icone">
+                                    <i class="fa-solid fa-weight-hanging"></i>
+                                </div>
+                                <div class="campo-input">
+                                    <input type="number" id="peso">
+                                </div>
+                                <div class="valor">
+                                    <p>Kg</p>
+                                </div>
                             </div>
                         </div>
                         <div class="inp">
-                            <label for="altura">Altura em m</label>
-                            <div class="campo"></div>
-                            <div class="icone">
-                                <i class="fa-solid fa-ruler"></i>
+                            <label for="altura">Altura em M</label>
+                            <div class="campo">
+                                <div class="icone">
+                                    <i class="fa-solid fa-ruler"></i>
+                                </div>
+                                <div class="campo-input">
+                                    <input type="number" id="altura">
+                                </div>
+                                <div class="valor">
+                                    <p>M</p>
+                                </div>
                             </div>
-                            <div class="campo-input">
-                                <input type="number" id="altura">
-                            </div>
-                            <div class="valor">
-                                <p>m</p>
-                            </div>
-                            
-                            <button>Calcular</button>
                         </div>
-                        <div class="fim">
-
-                        </div>
+                    <button id="btn">Calcular</button>
                     </div>
+                    <div class="fim" id="fim"></div>
                 </div>
-            </div>
-        </div>
-    </div>
-        
-    
+                <script src="./script.js"></script>
+                </div>
 </body>
 
 </html>
