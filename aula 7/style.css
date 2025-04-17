@@ -118,7 +118,7 @@ body{
 
 .container .direita .card .fim{
     display: flex;
-    width: 100%;
+     width: 100%;
     padding-top: 10px;
     flex-direction: column;
 }
@@ -132,6 +132,7 @@ body{
 .container .direita .card .fim .resultado{
     width: 100%;
     display: flex;
+    
 }
 
 .container .direita .card .fim .resultado .esquerda{
@@ -140,7 +141,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-direction: column;
 }
 
 .container .direita .card .fim .resultado .esquerda h2{
