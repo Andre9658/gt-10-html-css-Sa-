@@ -9,12 +9,49 @@
 <body>
     <div class="w-full h-screen flex flex-col items-center pt-[20px] bg-[#E5E5E5FF]">
         <h1 class="text-[30px]  text-[#1316BBFF] font-bold">Calculadora Aluguel de Carros</h1>
-        <p>Calcule facilmnete o valor da diaria do seu carro com base nos  dias e quilômetros rodados</p>
-        <div class="w-[400px] h-[450px] bg-white mt-[30px] rounded-[10px]">
-            <div class="w-full h-auto flex justify-center items-center">
-                <h1>Calculadora de Diária</h1>
+        <p>Calcule facilmente o valor da diaria do seu carro com base nos  dias e quilômetros rodados</p>
+        <div class="w-[400px] h-auto bg-white mt-[30px] rounded-[10px]">
+            <div class="w-full h-[10%] flex justify-center items-center">
+                <h1 class="text-[20px] font-bold">Calculadora de Diária</h1>
+            </div>
+            <div class="w-full h-[90%] p-[10px] flex flex-col">
+                <label for="dia" class="font-bold">Dias de Aluguel</label>
+                <input type="number" id="dia" class="w-full rounded-[5px] border  border-[#cccccc]">
+                <label for="km" class="font-bold mt-4">Quilômetros Rodados</label>
+                <input type="number" id="km"  class="w-full rounded-[5px] border border-[#cccccc]">
+                <label for="Categoria " class="font-bold mt-2">Tipo de Veículo</label>
+                <select id="categoria" class="w-full rounded-[5px] border border-[#cccccc]" >
+                    <option value="economico">Econômico</option>
+                    <option value="intermediario">Intermediário</option>
+                    <option value="luxo">Luxo</option>
+                </select>
+                <button id="calcular" class="w-fullc p-2 rounded-md bg-black text-white mt-4">Calcular</button>
+                <div class="w-full bg-gray-300 mt-4 rounded-lg p-2">
+                    <h4 class="font-bold text-[18px]">Resultado</h4>
+                    <div class="w-full flex justify-between">
+                        <p>Valor da Diaria:</p>
+                        <p id="result-diaria"></p>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <p>Custo das Diarias <span id="total-dias"></span>:</p>
+                        <p id="result-total-dias"></p>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <p>Valor por Km: </p>
+                        <p id="result-km"></p>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <p>Custo por Km <span id="total-kms"></span>:</p>
+                        <p id="result-total-kms"></p>
+                    </div>
+                    <div class="w-full flex justify-between border-t border-gray-400">
+                        <p class="font-bold">Valor Total:</p>
+                        <p id="result-total"></p>
+                    </div>
+                    </div>
             </div>
         </div>
+        <script src="./script.js"></script>
     </div>
 </body>
 </html>
